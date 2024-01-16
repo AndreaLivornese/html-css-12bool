@@ -1,0 +1,18 @@
+[class*="col-"]{
+    background-color: #055ed2;
+    height: 70px;
+
+    padding:20px;
+
+    border: 1px solid white;
+
+    color:white;
+    text-align: center;
+}
+
+[class*="col-"] [class*="col-"]{
+    background-color: #00e165;
+    height: 100%;
+    padding-top:5px;
+    border:none;
+}
