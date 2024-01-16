@@ -19,6 +19,7 @@
 }
 
 
+
 [class*="col-"]{
     flex: 0 0 auto;
 }
@@ -47,6 +48,17 @@
     justify-content: space-between;
 }
 
+.align-self-start{
+    align-self: flex-start;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+.align-self-end{
+    align-self:flex-end ;
+}
 
 /* realizzazione selettori delle colonne */
 

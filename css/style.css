@@ -21,3 +21,12 @@ section{
     padding-top:5px;
     border-color:#055ed2;
 }
+
+.container{
+    width: calc(100% / 12 * 6);
+
+}
+
+.row > .container:first-of-type [class*="col-"]:not([class*="col-offset-"]){
+    height: 140px;
+}
