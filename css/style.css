@@ -1,3 +1,8 @@
+
+section{
+    margin-bottom: 30px;
+}
+
 [class*="col-"]{
     background-color: #055ed2;
     height: 70px;
