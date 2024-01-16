@@ -31,6 +31,10 @@
 
 /* modificatori flex */
 
+.justify-start{
+    justify-content: flex-start;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -170,3 +174,8 @@
 .col-offset-12{
     margin-left: calc(100% / 12 * 12);
 }
+
+
+
+/*  */
+
