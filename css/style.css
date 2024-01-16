@@ -3,7 +3,7 @@ section{
     margin-bottom: 30px;
 }
 
-[class*="col-"]{
+[class*="col-"]:not([class*="col-offset-"]){
     background-color: #055ed2;
     height: 70px;
 
